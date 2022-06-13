@@ -14,7 +14,7 @@ function Destination() {
   const images = [moon, mars, europa, titan] ;
 
   const fetchDestination = async () => {
-    const res = await fetch('http://localhost:8000/destinations')
+    const res = await fetch('https://my-json-server.typicode.com/Kehinde13/demo.json')
     const data = await res.json()
     
      setPlanet(data);
