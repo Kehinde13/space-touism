@@ -15,7 +15,7 @@ function Crew() {
   const images = [doug, mark, victor, ans] ;
 
   const fetchDestination = async () => {
-    const res = await fetch("https://my-json-server.typicode.com/Kehinde13/demo.json");
+    const res = await fetch('https://my-json-server.typicode.com/Kehinde13/demo.json');
     const data = await res.json()
     
      setCrew(data);
