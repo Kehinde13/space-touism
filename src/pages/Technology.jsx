@@ -18,7 +18,7 @@ function Technology() {
 
 
   const fetchDestination = async () => {
-    const res = await fetch('http://localhost:8000/technology')
+    const res = await fetch('https://my-json-server.typicode.com/Kehinde13/demo.json/technology')
     const data = await res.json()
     
      setTech(data);
